@@ -25,7 +25,20 @@ body{
     text-align: center;
 }
 
-h1 {
-    
+h1 {    
     margin: 10px auto;
+}
+
+input {
+width:250px;
+height: 25px;
+border-radius: 12px;
+border: 2px solid var(--copper-rose);
+}
+
+button {
+    background-color: var(--white-smoke);
+    border: 2px solid var(--copper-rose);
+    border-radius: 12px;
+    padding: 5px;
 }
