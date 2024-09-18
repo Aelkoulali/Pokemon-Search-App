@@ -35,19 +35,17 @@ h1 {
     text-wrap: wrap;
 }
 
-
-
 input {
 width:250px;
 height: 30px;
 border-radius: 12px;
 margin-top: 25px;
-
+border: 2px solid var(--black);
 }
 
 button {
-    background-color: var(--white-smoke);
-    border: 2px solid var(--copper-rose);
+    background-color: var(--pale-brown);
+    border: 2px solid var(--black);
     border-radius: 12px;
     padding: 5px;
     width: 100px;
