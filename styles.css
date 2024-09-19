@@ -19,23 +19,28 @@ body{
     background-color: var(--cadetblue);
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    padding: 0 15px;
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;         
 }
 
 h1 {    
-    margin: 50px auto;
+    margin: 30px auto;    
 }
 
 .container {
     display:flex;
+    flex-direction: column;
     text-wrap: wrap;
     border: 3px solid var(--white);
     border-radius: 8px;
     padding: 20px;
+    box-sizing: border-box;
+    width: 450px;
+    height: 750px;
+    margin: 0 auto;    
 }
 
 input {
