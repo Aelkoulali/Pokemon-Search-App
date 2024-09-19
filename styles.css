@@ -34,17 +34,17 @@ h1 {
     display:flex;
     flex-direction: column;
     text-wrap: wrap;
-    border: 3px solid var(--white);
-    border-radius: 8px;
+    border: 5px solid var(--blue);
+    background-color: var(--white);
+    border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
-    width: 450px;
-    height: 750px;
-    margin: 0 auto;    
+    width: 350px;
+    margin: 0 auto; 
 }
 
 input {
-width:250px;
+width:200px;
 height: 30px;
 border-radius: 8px;
 margin-top: 25px;
@@ -56,6 +56,6 @@ button {
     border: 2px solid var(--black);
     border-radius: 8px;
     padding: 5px;
-    width: 100px;
+    width: 80px;
     height: 30px;
 }
