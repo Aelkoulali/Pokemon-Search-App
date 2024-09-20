@@ -7,13 +7,16 @@
 }
 
 :root {
-    --blue:#3D7DCA;
-    --navyblue:#003A70;
-    --yellow:#FFCB05;
-    --green :#0FC305;
-    --red:#DD1616;
     --black:#080808;
     --white:#FFFFFF;
+    --blue:#3D7DCA;
+    --navyblue:#003A70;
+    --eaton-blue:#7AC89E;
+    --yellow:#FFCB05;
+    --yellow-red:#F4AB6F;
+    --red:#E13620;
+    --green:#0FC305;
+ 
 }
 
 body{
@@ -66,5 +69,5 @@ button {
 }
 
 button:hover{
-    background-color: var(--green);
+    background-color: var(--eaton-blue);
 }
