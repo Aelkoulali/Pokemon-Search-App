@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color: var(--black);
+    background-color: var(--navyblue);
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     display:flex;
