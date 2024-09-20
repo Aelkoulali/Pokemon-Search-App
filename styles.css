@@ -63,7 +63,7 @@ button:hover{
     display:flex;
     flex-direction: column;
     text-wrap: wrap;
-    border: 5px solid var(--blue);
+    border: 6px solid var(--blue);
     background-color: var(--white);
     border-radius: 10px;
     padding: 20px;
@@ -82,7 +82,7 @@ button:hover{
     box-sizing: border-box;
 }
 
-.top-container {
+.top-container .bottom-container {
     display: flex;
     flex-direction: column-reverse;
     align-self: center;
@@ -92,7 +92,27 @@ button:hover{
 
 .name-and-id {
     height: 28px;
-    font-size: 1.1em;
+    font-size: 17.5px;
     text-transform: capitalize;
     margin-bottom: 5px;
+}
+
+.size {
+    height: 22px;
+    font-size: 13.5px;
+}
+
+#sprite-container {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#types {
+    min-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
 }
