@@ -59,6 +59,10 @@ button:hover{
     background-color: var(--red);
 }
 
+.fa-solid {
+    margin-left: 15px;
+}
+
 .container {
     display:flex;
     flex-direction: column;
