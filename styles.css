@@ -68,7 +68,7 @@ button:hover{
     flex-direction: column;
     text-wrap: wrap;
     border: 6px solid var(--blue);
-    background-color: var(--yellow-red);
+    background-color: var(--white);
     border-radius: 10px;
     padding: 5px;
     box-sizing: border-box;
@@ -145,7 +145,7 @@ th {
     font-weight: bold;
     text-align: inherit;
     unicode-bidi: isolate;
-    border: 3px solid var(--navyblue);
+    border: 3px solid var(--blue);
     border-radius: 5px;
     background-color: var(--yellow);
 }
