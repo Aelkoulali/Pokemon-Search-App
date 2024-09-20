@@ -7,16 +7,17 @@
 }
 
 :root {
-    --cadetblue: #5F9EA0;
-    --blue:#1F7B98;
-    --rose-dust : #A05F7E;
-    --pale-brown: #A0825F;
+    --blue:#3D7DCA;
+    --navyblue:#003A70;
+    --yellow:#FFCB05;
+    --green :#0FC305;
+    --red:#DD1616;
     --black:#080808;
     --white:#FFFFFF;
 }
 
 body{
-    background-color: var(--cadetblue);
+    background-color: var(--black);
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     display:flex;
@@ -27,6 +28,7 @@ body{
 }
 
 h1 {
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,14 +52,19 @@ width:200px;
 height: 30px;
 border-radius: 8px;
 margin-top: 25px;
-border: 2px solid var(--black);
+border: 3px solid var(--blue);
 }
 
 button {
-    background-color: var(--pale-brown);
-    border: 2px solid var(--black);
+    background-color: var(--yellow);
+    border: 3px solid var(--blue);
     border-radius: 8px;
     padding: 5px;
     width: 80px;
     height: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--green);
 }
