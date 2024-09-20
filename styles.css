@@ -37,19 +37,6 @@ h1 {
     align-items: center;
 }
 
-.container {
-    display:flex;
-    flex-direction: column;
-    text-wrap: wrap;
-    border: 5px solid var(--blue);
-    background-color: var(--white);
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    width: 350px;
-    margin: 0 auto; 
-}
-
 input {
 width:200px;
 height: 30px;
@@ -70,4 +57,42 @@ button {
 
 button:hover{
     background-color: var(--eaton-blue);
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    border: 5px solid var(--blue);
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0 auto; 
+}
+
+.output {
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-self: center;
+    justify-content: center;
+    min-height: 325px;
+}
+
+.name-and-id {
+    height: 28px;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    margin-bottom: 5px;
 }
