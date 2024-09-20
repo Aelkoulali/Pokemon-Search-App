@@ -28,7 +28,8 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;    
-    line-height: 1.5;     
+    line-height: 1.5;  
+     
 }
 
 h1 {
@@ -38,11 +39,16 @@ h1 {
     align-items: center;
 }
 
+label {
+    font-weight: bold;
+}
+
 input {
 width:200px;
 height: 30px;
 border-radius: 8px;
 border: 3px solid var(--blue);
+font-weight: bold;
 }
 
 button {
@@ -53,6 +59,7 @@ button {
     width: 80px;
     height: 30px;
     cursor: pointer;
+    font-weight: bold;  
 }
 
 button:hover{
@@ -128,7 +135,8 @@ table {
     text-indent: initial;
     unicode-bidi: isolate;
     border-spacing: 2px;
-    text-wrap: wrap;  
+    text-wrap: wrap; 
+    font-weight: bold; 
     
 }
 
@@ -147,7 +155,7 @@ th {
     unicode-bidi: isolate;
     border: 3px solid var(--blue);
     border-radius: 5px;
-    background-color: var(--yellow);
+    background-color: var(--eaton-blue);
 }
 
 tr {
@@ -165,6 +173,6 @@ td {
     unicode-bidi: isolate;
     border: 3px solid var(--red);
     border-radius: 5px;
-    background-color: var(--blue);
+    background-color: var(--yellow-red);
     
 }
