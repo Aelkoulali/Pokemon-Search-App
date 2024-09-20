@@ -120,11 +120,11 @@ button:hover{
 table {
     display: table;
     border-collapse: separate;
-    box-sizing: border-box;
+    width: 100%;
     text-indent: initial;
     unicode-bidi: isolate;
     border-spacing: 2px;
-    border-color: var(--navyblue);
+    background-color: var(--yellow);
     text-wrap: wrap;    
 }
 
@@ -139,7 +139,7 @@ th {
     display: table-cell;
     vertical-align: inherit;
     font-weight: bold;
-    text-align: -internal-center;
+    text-align: inherit;
     unicode-bidi: isolate;
 }
 
