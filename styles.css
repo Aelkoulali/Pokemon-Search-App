@@ -74,13 +74,14 @@ button:hover{
     display:flex;
     flex-direction: column;
     text-wrap: wrap;
-    border: 6px solid var(--blue);
+    border: 3px solid var(--navyblue);
     background-color: var(--white);
     border-radius: 10px;
     padding: 5px;
     box-sizing: border-box;
     width: 350px;
     margin: 0 auto; 
+    box-shadow: 10px 10px 0px 0px var(--yellow);
 }
 
 .output {
