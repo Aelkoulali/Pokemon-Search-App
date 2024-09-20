@@ -11,11 +11,13 @@
     --white:#FFFFFF;
     --blue:#3D7DCA;
     --navyblue:#003A70;
-    --eaton-blue:#7AC89E;
+    --eaton-blue:#72f5af;
+    --cyan-blue:#8ED1FC;
     --yellow:#FFCB05;
     --yellow-red:#F4AB6F;
-    --red:#E13620;
-    --green:#0FC305;
+    --pale-pink:#fdbcb4;
+    --red:#fa503a;
+    --green:#00D084;
  
 }
 
@@ -79,7 +81,7 @@ button:hover{
     border-radius: 15px;
     padding: 5px;
     box-sizing: border-box;
-    width: 350px;
+    width: 380px;
     margin: 0 auto; 
     box-shadow: 10px 10px 0px 0px var(--yellow);
 }
@@ -99,7 +101,7 @@ button:hover{
     flex-direction: column-reverse;
     align-self: center;
     justify-content: center;
-    min-height: 300px;
+    min-height: 325px;
 }
 
 .name-and-id {
@@ -156,7 +158,7 @@ th {
     unicode-bidi: isolate;
     border: 3px solid var(--blue);
     border-radius: 5px;
-    background-color: var(--eaton-blue);
+    background-color: var(--red);
 }
 
 tr {
@@ -174,6 +176,6 @@ td {
     unicode-bidi: isolate;
     border: 3px solid var(--red);
     border-radius: 5px;
-    background-color: var(--yellow-red);
+    background-color: var(--cyan-blue);
     
 }
