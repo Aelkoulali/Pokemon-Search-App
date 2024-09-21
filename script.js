@@ -19,5 +19,7 @@ const searchBtn = document.getElementById("search-button");
 
 // Add addEventListener on searchBtn
 searchBtn.addEventListener("click", () => {
-    
+    if(searchInput.innerText = "Red"){
+        alert("Pokémon not found"); 
+    }
 })
