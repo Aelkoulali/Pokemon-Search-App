@@ -13,3 +13,6 @@ const defense = document.getElementById("defense");
 const spAttack = document.getElementById("special-attack");
 const spDefense = document.getElementById("special-defense");
 const speed = document.getElementById("speed");
+
+
+const searchBtn = document.getElementById("search-button");
