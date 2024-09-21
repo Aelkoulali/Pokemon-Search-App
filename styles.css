@@ -68,7 +68,7 @@ button:hover{
     background-color: var(--red);
 }
 
-.fa-solid {
+.fa-solid, .fa-brands {
     margin-left: 15px;
 }
 
