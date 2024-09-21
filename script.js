@@ -16,3 +16,8 @@ const speed = document.getElementById("speed");
 
 
 const searchBtn = document.getElementById("search-button");
+
+// Add addEventListener on searchBtn
+searchBtn.addEventListener("click", () => {
+    
+})
