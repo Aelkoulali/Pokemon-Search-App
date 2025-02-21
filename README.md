@@ -1,4 +1,4 @@
-# 🗂️ Pokémon Search App ⚡🐉🐟
+# 🗂️ Pokémon Search App ⚡🐉🐦‍🔥
 ## ➡️ Key Concepts :
 ### ✅ Fetch API
 ### ✅ 
