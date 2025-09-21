@@ -53,11 +53,11 @@ function displayPokemonData(data) {
     types.textContent = data.types.map(typeInfo => typeInfo.type.name).join(", ");
     weight.textContent = `Weight: ${data.weight}`;
     height.textContent = `Height: ${data.height}`;
-    hp.textContent = `HP: ${data.stats[0].base_stat}`;
-    attack.textContent = `Attack: ${data.stats[1].base_stat}`;
-    defense.textContent = `Defense: ${data.stats[2].base_stat}`;
-    spAttack.textContent = `Special Attack: ${data.stats[3].base_stat}`;
-    spDefense.textContent = `Special Defense: ${data.stats[4].base_stat}`;
-    speed.textContent = `Speed: ${data.stats[5].base_stat}`;
+    hp.textContent = `${data.stats[0].base_stat}`;
+    attack.textContent = `${data.stats[1].base_stat}`;
+    defense.textContent = `${data.stats[2].base_stat}`;
+    spAttack.textContent = `${data.stats[3].base_stat}`;
+    spDefense.textContent = `${data.stats[4].base_stat}`;
+    speed.textContent = `${data.stats[5].base_stat}`;
 }
 
