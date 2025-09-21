@@ -60,4 +60,5 @@ function displayPokemonData(data) {
     spDefense.textContent = `${data.stats[4].base_stat}`;
     speed.textContent = `${data.stats[5].base_stat}`;
 }
-
+// Initial fetch for a default Pokémon (e.g., Pikachu)
+fetchPokemonData("pikachu");
