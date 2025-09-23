@@ -123,13 +123,17 @@ button:hover{
     justify-content: center;
 }
 
-#types {
+#types  {
     min-height: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 5px;
-}
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}    
 
 table {
     display: table;
