@@ -38,6 +38,22 @@ function handleError(message) {
     errorMessage.style.display = "block";
 }
 
+// Function to clear previous Pokémon data
+function clearPokemonData() {
+    pokemonId.textContent = "";
+    pokemonName.textContent = "";
+    spriteCtn.innerHTML = "";
+    types.textContent = "";
+    weight.textContent = "";
+    height.textContent = "";
+    hp.textContent = "";
+    attack.textContent = "";
+    defense.textContent = "";
+    spAttack.textContent = "";
+    spDefense.textContent = "";
+    speed.textContent = "";
+}
+
 // Function to fetch Pokémon data
 async function fetchPokemonData(pokemon) {
     try {
