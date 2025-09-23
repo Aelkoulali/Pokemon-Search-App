@@ -45,6 +45,13 @@ async function fetchPokemonData(pokemon) {
     }    
 }
 
+// Function to handle errors
+function handleError(message) {
+    const errorMessage = document.getElementById("error-message");
+    errorMessage.textContent = message;
+    errorMessage.style.display = "block";
+}
+
 // Function to display Pokémon data
 function displayPokemonData(data) {
     pokemonId.textContent = `#${data.id}`;
