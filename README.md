@@ -3,4 +3,5 @@
 ### ✅ Javascript Fetch API
 ### ✅ Search for Pokémon by Name or ID
 ### ✅ Display Results to User
+### ✅ Responsive
 
