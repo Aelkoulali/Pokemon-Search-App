@@ -1,4 +1,4 @@
-# 🗂️ Pokémon Search App ⚡🐉🐦‍🔥
+# 🗂️ Pokémon Search App 🐉🐦‍🔥
 ## ➡️ Key Concepts :
 ### ✅ Javascript Fetch API
 ### ✅ Search for Pokémon by Name or ID
