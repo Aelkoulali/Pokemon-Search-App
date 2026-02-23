@@ -1,6 +1,7 @@
 # 🗂️ Pokémon Search App ⚡🐉🐦‍🔥
 ## ➡️ Key Concepts :
-### ✅ Javascript Fetch API
+### ✅ JavaScript, HTML & CSS
+### ✅ JavaScript Fetch API
 ### ✅ Search for Pokémon by Name or ID
 ### ✅ Display Results to User
 
