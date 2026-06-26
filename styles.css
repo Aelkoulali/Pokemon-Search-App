@@ -1,185 +1,183 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --black:#080808;
-    --white:#FFFFFF;
-    --blue:#3D7DCA;
-    --navyblue:#003A70;
-    --eaton-blue:#72f5af;
-    --cyan-blue:#8ED1FC;
-    --yellow:#FFCB05;
-    --yellow-red:#F4AB6F;
-    --pale-pink:#fdbcb4;
-    --red:#fa503a;
-    --green:#00D084;
- 
+  --black: #080808;
+  --white: #ffffff;
+  --blue: #3d7dca;
+  --navyblue: #003a70;
+  --eaton-blue: #72f5af;
+  --cyan-blue: #8ed1fc;
+  --yellow: #ffcb05;
+  --yellow-red: #f4ab6f;
+  --pale-pink: #fdbcb4;
+  --red: #fa503a;
+  --green: #00d084;
 }
 
-body{
-    background-color: var(--navyblue);
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;    
-    line-height: 1.5;  
-     
+body {
+  background-color: var(--navyblue);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
 }
 
 h1 {
-    margin: 10px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 label {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 input {
-width:200px;
-height: 30px;
-border-radius: 8px;
-border: 3px solid var(--blue);
-font-weight: bold;
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  border: 3px solid var(--blue);
+  font-weight: bold;
 }
 
 button {
-    background-color: var(--yellow);
-    border: 3px solid var(--blue);
-    border-radius: 8px;
-    padding: 5px;
-    width: 80px;
-    height: 30px;
-    cursor: pointer;
-    font-weight: bold;  
+  background-color: var(--yellow);
+  border: 3px solid var(--blue);
+  border-radius: 8px;
+  padding: 5px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-button:hover{
-    background-color: var(--red);
+button:hover {
+  background-color: var(--red);
 }
 
-.fa-solid, .fa-brands {
-    margin-left: 15px;
+.fa-solid,
+.fa-brands {
+  margin-left: 15px;
 }
 
 .container {
-    display:flex;
-    flex-direction: column;
-    text-wrap: wrap;
-    border: 3px solid var(--navyblue);
-    background-color: var(--white);
-    border-radius: 15px;
-    padding: 5px;
-    box-sizing: border-box;
-    width: 380px;
-    margin: 0 auto; 
-    box-shadow: 10px 10px 0px 0px var(--yellow);
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  border: 3px solid var(--navyblue);
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 380px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 0px 0px var(--yellow);
 }
 
 .output {
-    display: flex;
-    flex-direction: column-reverse;
-    align-self: center;
-    justify-content: center;
-    margin: 10px 0;
-    padding: 5px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: center;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
-.top-container, .bottom-container {
-    display: flex;
-    flex-direction: column-reverse;
-    align-self: center;
-    justify-content: center;
-    min-height: 325px;
+.top-container,
+.bottom-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: center;
+  justify-content: center;
+  min-height: 325px;
 }
 
 .name-and-id {
-    height: 28px;
-    font-size: 17.5px;
-    text-transform: capitalize;
-    margin-bottom: 5px;
+  height: 28px;
+  font-size: 17.5px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
 }
 
 .size {
-    height: 22px;
-    font-size: 13.5px;
+  height: 22px;
+  font-size: 13.5px;
 }
 
 .sprite-container {
-    flex-grow: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#types  {
-    min-height: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 5px;
-    margin: 5px 0;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: capitalize;
-}    
+#types {
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 
 table {
-    display: table;
-    border-collapse: separate;
-    width: 330px;
-    text-indent: initial;
-    unicode-bidi: isolate;
-    border-spacing: 2px;
-    text-wrap: wrap; 
-    font-weight: bold; 
-    
+  display: table;
+  border-collapse: separate;
+  width: 330px;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  text-wrap: wrap;
+  font-weight: bold;
 }
 
 tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    unicode-bidi: isolate;
-    border-color: inherit;
+  display: table-row-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
 }
 
 th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: inherit;
-    unicode-bidi: isolate;
-    border: 3px solid var(--blue);
-    border-radius: 5px;
-    background-color: var(--red);
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: inherit;
+  unicode-bidi: isolate;
+  border: 3px solid var(--blue);
+  border-radius: 5px;
+  background-color: var(--red);
 }
 
 tr {
-    display: table-row;
-    vertical-align: inherit;
-    unicode-bidi: isolate;
-    border-color: inherit;
-    border: 3px solid var(--red);
-    border-radius: 5px;
+  display: table-row;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+  border-color: inherit;
+  border: 3px solid var(--red);
+  border-radius: 5px;
 }
 
 td {
-    display: table-cell;
-    vertical-align: inherit;
-    unicode-bidi: isolate;
-    border: 3px solid var(--red);
-    border-radius: 5px;
-    background-color: var(--cyan-blue);
-    
+  display: table-cell;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+  border: 3px solid var(--red);
+  border-radius: 5px;
+  background-color: var(--cyan-blue);
 }
