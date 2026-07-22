@@ -17,4 +17,4 @@ A Pokémon Search App built with HTML, CSS, and JavaScript. Users can search for
 2. Click Search to fetch and display the results.
 
 ## ▶️ How to Run
-1. Open `index.html` in your browser.
+Open `index.html` in your browser.
