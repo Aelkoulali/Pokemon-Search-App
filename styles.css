@@ -123,8 +123,12 @@ button:hover {
   align-items: center;
   justify-content: center;
   height: 200px;
-  width: 200px;
-  
+  width: 200px;    
+}
+
+.sprite-container img{
+  width: 250px;        
+  height: auto;
 }
 
 #types {
