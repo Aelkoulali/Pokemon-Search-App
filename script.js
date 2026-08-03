@@ -82,6 +82,13 @@ function displayPokemonData(data) {
     spAttack.textContent = `${data.stats[3].base_stat}`;
     spDefense.textContent = `${data.stats[4].base_stat}`;
     speed.textContent = `${data.stats[5].base_stat}`;
+    const officialImg = data.sprites?.other?.["official-artwork"]?.front_default;
+    const otherHighRes = data.sprites?.other?.["home"]?.front_default;
+    const fallbackImg = data.sprites?.front_default;
+
+const imgSrc = officialImg || otherHighRes || fallbackImg;
+
+spriteCtn.innerHTML = `<img src="${imgSrc}" alt="${data.name}">`;
 }
 
 // Initial fetch for a default Pokémon (e.g., Pikachu)
