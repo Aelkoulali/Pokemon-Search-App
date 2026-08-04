@@ -107,7 +107,8 @@ button:hover {
 
 .name-and-id {
   height: 28px;
-  font-size: 17.5px;
+  font-size: 18.5px;
+  font-weight: bold;
   text-transform: capitalize;
   margin-bottom: 5px;
 }
