@@ -117,7 +117,7 @@ button:hover {
 .size {
   height: 22px;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: bolder;
   color: var(--red);
   text-transform: capitalize;
 }
@@ -143,9 +143,9 @@ button:hover {
   justify-content: center;
   gap: 5px;
   margin: 5px 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--blue);
   text-transform: capitalize;
 }
 
