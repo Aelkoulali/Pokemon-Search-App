@@ -115,6 +115,8 @@ button:hover {
 .size {
   height: 22px;
   font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .sprite-container {
