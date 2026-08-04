@@ -110,6 +110,7 @@ button:hover {
   font-size: 18.5px;
   font-weight: bold;
   text-transform: capitalize;
+  color: var(--navyblue);
   margin-bottom: 5px;
 }
 
